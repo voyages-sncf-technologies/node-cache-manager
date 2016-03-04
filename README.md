@@ -26,7 +26,7 @@ See the [Express.js cache-manager example app](https://github.com/BryanDonovan/n
 
 ## Installation
 
-    npm install cache-manager
+    npm install vsct-cache-manager
 
 ## Store Engines
 * [node-cache-manager-redis](https://github.com/dial-once/node-cache-manager-redis)
