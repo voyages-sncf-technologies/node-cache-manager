@@ -1,5 +1,5 @@
 {
-  "name": "cache-manager",
+  "name": "vsct-cache-manager",
   "version": "1.4.0",
   "description": "Cache module for Node.js",
   "main": "index.js",
@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BryanDonovan/node-cache-manager.git"
+    "url": "https://github.com/voyages-sncf-technologies/node-cache-manager.git"
+  },
+  "publishConfig" : {
+    "registry" : "http://nexus.socrate.vsct.fr/content/repositories/VSCT_NPM/"
   },
   "keywords": [
     "cache",
@@ -17,7 +20,7 @@
     "memory cache",
     "multiple cache"
   ],
-  "author": "Bryan Donovan",
+  "author": "Ivan Isaakidis",
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
